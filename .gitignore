@@ -1,23 +1,49 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ── Sanal Ortam ──
+venv/
+env/
+ENV/
+.venv/
+
+# ── Veritabanı ──
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Streamlit ──
+.streamlit/secrets.toml
+
+# ── IDE / Editör ──
+.idea/
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Ortam Değişkenleri ──
+.env
+.env.local
+.env.production
+
+# ── Log Dosyaları ──
+*.log
+logs/
+
+# ── Test Çıktıları ──
+.pytest_cache/
+htmlcov/
+.coverage
